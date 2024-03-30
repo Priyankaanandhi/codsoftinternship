@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+background-image: url('https://tse3.mm.bing.net/th/id/OIP.oYkfxm00-QF3vLwYzhJOvAAAAA?rs=1&pid=ImgDetMain');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: cover;
+    }
+
+    header {
+      background-color: #56b4d1;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 2px solid #fff;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+      font-size: 18px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      margin: 40px 0;
+    }
+
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    
+
+    #about img {
+      width: 200px;
+      border-radius: 50%;
+    }
+
+    #skills ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    
+
+    .project {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 400px;
+    }
+#skills {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #skills h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #skills li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+    transition: background-color 0.3s ease; /* Adding transition effect */
+    cursor: pointer; /* Changing cursor to pointer on hover */
+  }
+
+  /* Style for different skills */
+  #skills li:nth-child(odd) {
+    background-color: #f2f2f2;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+
+  #skills li:nth-child(even) {
+    background-color: #eaeaea;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+
+  /* Hover effect */
+  #skills li:hover {
+    background-color: #d0e5f2; /* Change background color on hover */
+  }
+    
+
+    footer {
+      background-color: #56b4d1;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+#projects {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #projects h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .project {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Adding transition effect */
+  }
+
+  .project:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+  }
+
+  .project h3 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .project p {
+    font-size: 18px;
+    color: #555;
+  }
+
+  .project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Priyanka Senthilkumar</h1>
+    <nav>
+<img src="Priya.jpeg" alt="Profile Picture" width="100" height="100">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Automated Public Lighting</p>
+      <img src="https://i.ytimg.com/vi/lgj7A3yg2QM/maxresdefault.jpg" alt="Project 1 Image">
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Smart Water Meter Monitoring and Distribution System </p>
+      <img src="Project 2.jpg" alt="Project 2 Image">
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="PRIYANKA-S-Resume-Softcopy.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: officialpriyankasenthil@gmail.com</p>
+    <p>Phone: 850-874-7744</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Priyanka. All rights reserved.</p>
+  </footer>
+</body>
+</html>

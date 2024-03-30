@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.service {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.service h2 {
+    margin-top: 0;
+}
+
+.service p {
+    margin-bottom: 0;
+.service-content {
+    display: flex;
+    align-items: center;
+}
+
+.service-image {
+    width: 200px; /* Adjust image width as needed */
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+.service-text {
+    flex: 1; /* Allow text to take up remaining space */
+}
+
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-vector/pet-shop-sale-discount-banner-poster-concept-animal-pets-zoo-store-with-food-toys_133260-5122.jpg');
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.left-image {
+    float: left; /* Float the image to the left */
+    width: 700px; /* Adjust width as needed */
+    height: auto; /* Let the height adjust according to the aspect ratio */
+    margin-left: 700px;
+   
+}
+
+
+/* Or you can position the image absolutely */
+/* .left-image {
+    position: absolute;
+    top: 0; // Adjust top position as needed
+    left: 0; // Align image to the left
+    width: 300px; // Adjust width as needed
+    height: auto; // Let the height adjust according to the aspect ratio
+} */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background to improve readability */
+    color: #d3d3d3;
+    text-align: center;
+    padding: 40px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+nav ul li a:hover {
+    color: #A9A9A9; /* Change color on hover */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-section, .services-section, .contact-section {
+    padding: 60px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent white background for better contrast */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background to improve readability */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+
+
+}
